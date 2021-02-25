@@ -27,6 +27,13 @@
 * Make sure to replace the phone numbers in twilio_demo.py with the one's you are testing with
 * You can now run twilio_demo.py and see it function!
 
+## Some Extra Notes
+* Pay close attention to the comments in twilio_demo.py to learn what is going on in the code
+* To learn more about using Twilio in other languages, check out https://www.twilio.com/docs/sms
+* NEVER push your .env file, you might leak your Twilio credentials (.env is in the gitignore for this reason)
+* If you have issues with any of the steps, always try Googling solutions! Millions of people have followed the same steps before and probably had similar issues.
+* A normal production system using Twilio will certainly be more complex. However, sending a text message with about 20 lines of code is pretty amazing!
+
 ## Note: This tutorial likely requires some minor amounts of Python knowledge. It is designed for developers with basic experience.
 * Twilio is intended for use by developers anyways.
 * If you have any questions, feel free to contact me at gutta@usc.edu!
